@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="USA Shopping List Table" max_length="40" name="x_0816_usa_shoppin_usa_shopping_list_table" type="collection">
+        <element label="Description" max_length="256" name="description" type="string"/>
+        <element choice="1" default="Low" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Medium" sequence="1" value="Medium"/>
+                <element label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element choice="1" default="To Buy" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="To Buy" sequence="0" value="To Buy"/>
+                <element label="Got it!" sequence="1" value="Purchased"/>
+            </choice>
+        </element>
+        <element label="Store" max_length="32" name="store" reference="core_company" reference_qual="u_store=true^vendor=true^EQ" reference_qual_condition="u_store=true^vendor=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="store"/>
+        </index>
+    </element>
+</database>

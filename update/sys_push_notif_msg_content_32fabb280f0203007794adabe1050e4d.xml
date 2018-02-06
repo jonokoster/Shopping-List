@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>Shopping list update</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <script><![CDATA[(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+ var json = {};
+
+ // build JSON sent by push here
+
+ return json;
+
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 19:53:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>32fabb280f0203007794adabe1050e4d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Shopping list update</sys_name>
+        <sys_package display_value="USA Shopping List" source="x_0816_usa_shoppin">3c85b2c80f0643007794adabe1050e09</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="USA Shopping List">3c85b2c80f0643007794adabe1050e09</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_32fabb280f0203007794adabe1050e4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 22:08:18</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

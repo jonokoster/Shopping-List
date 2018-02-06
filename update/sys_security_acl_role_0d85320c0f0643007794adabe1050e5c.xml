@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-22 01:32:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d85320c0f0643007794adabe1050e5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0816_usa_shoppin_usa_shopping_list_table.x_0816_usa_shoppin.user</sys_name>
+        <sys_package display_value="USA Shopping List" source="x_0816_usa_shoppin">3c85b2c80f0643007794adabe1050e09</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="USA Shopping List">3c85b2c80f0643007794adabe1050e09</sys_scope>
+        <sys_security_acl display_value="x_0816_usa_shoppin_usa_shopping_list_table">c985320c0f0643007794adabe1050e58</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0d85320c0f0643007794adabe1050e5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-22 01:32:29</sys_updated_on>
+        <sys_user_role display_value="x_0816_usa_shoppin.user" name="x_0816_usa_shoppin.user">8d85fec80f0643007794adabe1050e30</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
